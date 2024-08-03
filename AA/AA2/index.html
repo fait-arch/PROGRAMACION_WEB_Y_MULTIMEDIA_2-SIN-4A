@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etapa 2 - Mi Sitio Web</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <!-- Logo con enlace a la página principal -->
+        <a href="#">
+            <img src="img/logo.png" alt="Logo">
+        </a>
+        <!-- Navegación principal -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Etapa 1</a></li>
+                <li><a href="src/etapados.html">Etapa 2</a></li>
+                <li><a href="src/etapatres.html">Etapa 3</a></li>
+            </ul>
+        </nav>
+        <!-- Título de la página -->
+        <h1>Bienvenido a Mi Sitio Web</h1>
+    </header>
+
+    <main>
+        <!-- Título de la etapa y descripción -->
+        <h1>Etapa 2</h1>
+        <p>El objetivo de este trabajo autónomo es crear dos tablas separadas.</p>
+
+        <!-- Primera tabla -->
+        <div class="container-table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Movie Title</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>The Jungle Book</td>
+                        <td>$22.96</td>
+                    </tr>
+                    <tr>
+                        <td>Marvel’s Captain America: Civil War</td>
+                        <td>$22.99</td>
+                    </tr>
+                    <tr>
+                        <td>Star Wars: The Force Awakens</td>
+                        <td>$29.96</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Segunda tabla -->
+        <div class="container-table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Edad</th>
+                        <th>Ciudad</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Juan Pérez</td>
+                        <td>30</td>
+                        <td>Madrid</td>
+                    </tr>
+                    <tr>
+                        <td>María López</td>
+                        <td>25</td>
+                        <td>Barcelona</td>
+                    </tr>
+                    <tr>
+                        <td>Carlos Sánchez</td>
+                        <td rowspan="2">40</td>
+                        <td>Sevilla</td>
+                    </tr>
+                    <tr>
+                        <td>Lucía García</td>
+                        <td>Valencia</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Ana Rodríguez</td>
+                        <td>Zaragoza</td>
+                    </tr>
+                    <tr>
+                        <td>Pablo Fernández</td>
+                        <td>35</td>
+                        <td>Málaga</td>
+                    </tr>
+                    <tr>
+                        <td>Laura Martínez</td>
+                        <td>28</td>
+                        <td>Bilbao</td>
+                    </tr>
+                    <tr>
+                        <td>David Gómez</td>
+                        <td>22</td>
+                        <td>Murcia</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3">Total de personas: 8</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Mi Sitio Web</p>
+    </footer>
+</body>
+</html>
