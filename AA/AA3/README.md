@@ -6,6 +6,7 @@ Este proyecto es un sitio web que consta de dos partes, la primera parte cumple 
 
 El proyecto está organizado de la siguiente manera:
 
+```bash
 AA3/
 │
 ├── README.md
@@ -19,6 +20,7 @@ AA3/
 │ └── script/
 │ ├── script.js
 │ └── script1.js
+```
 
 ## Páginas
 
