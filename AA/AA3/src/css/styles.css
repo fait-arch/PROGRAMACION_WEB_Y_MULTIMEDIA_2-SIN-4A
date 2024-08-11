@@ -1,0 +1,20 @@
+/* Ejemplo de estilos adicionales */
+body {
+	font-family: "Arial", sans-serif;
+}
+
+/* Estilos para <h1> */
+h1 {
+	font-size: 2.5rem; /* Tamaño de fuente */
+	font-weight: bold; /* Fuente en negrita */
+    font-family: "Arial", serif;
+	margin-bottom: 1rem; /* Margen inferior */
+}
+
+/* Estilos para <p> */
+div p {
+	font-size: 1rem; /* Tamaño de fuente */
+    font-weight: normal; /* Fuente */
+	font-family: "Times-New-Roman", serif ;
+	line-height: 1.5; /* Altura de línea para legibilidad */
+}

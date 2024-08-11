@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Mi Meme Favorito</title>
+		<script src="https://cdn.tailwindcss.com"></script>
+		<link href="./src/css/styles.css" rel="stylesheet" type="text/css" />
+
+		<style></style>
+	</head>
+	<body>
+		<header class="bg-gray-100 dark:bg-slate-900">
+			<nav
+				class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
+				aria-label="Global"
+			>
+				<div class="flex lg:flex-1">
+					<a href="#" class="-m-1.5 p-1.5">
+						<span class="sr-only">Your Company</span>
+						<img
+							class="h-8 w-auto"
+							src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+							alt=""
+						/>
+					</a>
+				</div>
+				<div class="flex lg:hidden">
+					<button
+						type="button"
+						class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-200"
+					>
+						<span class="sr-only">Open main menu</span>
+						<svg
+							class="h-6 w-6"
+							fill="none"
+							viewBox="0 0 24 24"
+							stroke-width="1.5"
+							stroke="currentColor"
+							aria-hidden="true"
+						>
+							<path
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+							/>
+						</svg>
+					</button>
+				</div>
+				<div class="hidden lg:flex lg:gap-x-12">
+					<a
+						href="./index.html"
+						class="text-sm font-semibold leading-6 text-gray-900 dark:text-gray-200"
+						>Etapa 1 y Etapa 2</a
+					>
+					<a
+						href="./src/components/etapa3.html"
+						class="text-sm font-semibold leading-6 text-gray-900 dark:text-gray-200"
+						>Marketplace</a
+					>
+				</div>
+			</nav>
+		</header>
+
+		<div class="grid min-h-screen">
+			<div class="bg-gray-200 grid place-items-center dark:bg-gray-800">
+				<div
+					class="bg-gray-300 shadow-md rounded-lg p-6 max-w-md text-center dark:dark:bg-gray-600"
+				>
+					<h1
+						class="text-gray-800 text-3xl font-bold text-clifford mb-4 dark:text-gray-200"
+					>
+						Name Placeholder
+					</h1>
+					<p class="text-gray-800 text-lg mb-6 dark:text-gray-200">
+						Sentence Placeholder
+					</p>
+
+					<div
+						class="bg-gray-100 grid place-items-center dark:bg-gray-800 rounded-lg"
+					>
+						<div
+							class="max-w-sm bg-gray-200 rounded-lg shadow-md overflow-hidden dark:bg-gray-800"
+						>
+							<!-- Header -->
+							<div class="flex items-center px-4 py-3">
+								<img
+									class="h-8 w-8 rounded-full object-cover"
+									src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQE1ok6QcdqRg8em7o-e8NmxlYGEDnJUnLU0w&s"
+									alt="Profile picture"
+								/>
+								<div class="ml-3">
+									<p
+										class="text-sm font-semibold text-gray-900 dark:text-gray-200"
+									>
+										fait_arch
+									</p>
+									<p class="text-xs text-gray-500 dark:text-gray-400">
+										Hace 2 horas
+									</p>
+								</div>
+							</div>
+							<!-- Image -->
+							<video
+								class="w-full h-auto shadow-md"
+								controls
+								src="./public/Download(1).mp4"
+								alt="Local video"
+							>
+								Your browser does not support the video tag.
+							</video>
+
+							<!-- Interactions -->
+							<div class="flex items-center justify-between px-4 py-2">
+								<div class="flex space-x-2">
+									<button id="like-btn">
+										<svg
+											id="like-icon"
+											class="w-6 h-6 text-gray-500"
+											fill="none"
+											stroke="currentColor"
+											viewBox="0 0 24 24"
+											xmlns="http://www.w3.org/2000/svg"
+										>
+											<path
+												stroke-linecap="round"
+												stroke-linejoin="round"
+												stroke-width="2"
+												d="M12 21C12 21 5 13.93 5 9.5C5 7.29 6.79 5.5 9 5.5C10.54 5.5 12 6.56 12 6.56C12 6.56 13.46 5.5 15 5.5C17.21 5.5 19 7.29 19 9.5C19 13.93 12 21 12 21Z"
+											></path>
+										</svg>
+									</button>
+								</div>
+							</div>
+							<!-- Caption -->
+							<div class="px-4 py-2">
+								<div class="text-sm text-left text-gray-900 dark:text-gray-200">
+									<span class="font-semibold">fait_arch: </span>
+									<p id="meme-description"></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="./src/script/script.js"></script>
+	</body>
+</html>

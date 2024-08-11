@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla Interactiva con Bulma</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.4/css/bulma.min.css">
+    <style>
+        /* Estilo adicional para botones */
+        .button.is-info {
+            margin: 0.5em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Tabla Interactiva</h1>
+        
+        <!-- Botones para acciones -->
+        <div class="buttons">
+            <button class="button is-primary">Agregar</button>
+            <button class="button is-link">Editar</button>
+            <button class="button is-danger">Eliminar</button>
+        </div>
+        
+        <!-- Tabla con más estilos -->
+        <table class="table is-bordered is-striped is-hoverable is-fullwidth has-text-centered ">
+            <thead>
+                <tr>
+                    <th class="has-text-centered">#</th>
+                    <th class="has-text-centered">Nombre</th>
+                    <th class="has-text-centered">Edad</th>
+                    <th class="has-text-centered">Ciudad</th>
+                    <th class="has-text-centered">Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Ana Pérez</td>
+                    <td>28</td>
+                    <td>Madrid</td>
+                    <td>
+                        <button class="button is-small is-info">Detalles</button>
+                        <button class="button is-small is-danger">Eliminar</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Juan García</td>
+                    <td>35</td>
+                    <td>Barcelona</td>
+                    <td>
+                        <button class="button is-small is-info">Detalles</button>
+                        <button class="button is-small is-danger">Eliminar</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>María López</td>
+                    <td>42</td>
+                    <td>Valencia</td>
+                    <td>
+                        <button class="button is-small is-info">Detalles</button>
+                        <button class="button is-small is-danger">Eliminar</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <!-- Paginación -->
+        <nav class="pagination is-centered" role="navigation" aria-label="pagination">
+            <a class="pagination-previous">Página Anterior</a>
+            <a class="pagination-next">Página Siguiente</a>
+            <ul class="pagination-list">
+                <li><a class="pagination-link" aria-label="Page 1" aria-current="page">1</a></li>
+                <li><a class="pagination-link" aria-label="Page 2">2</a></li>
+                <li><a class="pagination-link" aria-label="Page 3">3</a></li>
+            </ul>
+        </nav>
+    </div>
+</body>
+</html>
