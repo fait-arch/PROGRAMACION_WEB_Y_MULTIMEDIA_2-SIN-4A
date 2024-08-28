@@ -1,0 +1,58 @@
+/* styles.css */
+
+/* CONTENEDOR PRINCIPAL */
+#contenedor {
+	padding-top: 10px;
+	font-family: Arial, sans-serif;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0 auto;
+}
+
+/* CONTENEDOR DE TITULO */
+.title-container {
+	margin-top: 60px;
+	margin-bottom: 50px;
+	font-size: 24px;
+	text-align: center;
+	width: 90%;
+	max-width: 400px;
+}
+
+/* CONTENEDOR DE PRODUCTOS */
+#product-container {
+	width: 90%;
+	max-width: 400px;
+	margin-bottom: 40px;
+}
+
+.product {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #ececec;
+	border-radius: 10px;
+	padding: 20px;
+	border: 2px solid black;
+	margin-bottom: 20px;
+}
+
+.product .links a {
+	display: block;
+	margin-bottom: 10px;
+	padding: 15px 80px;
+	border: 2px solid #007bff; /* Color del borde */
+	border-radius: 30px; /* Bordes redondeados */
+	color: #007bff; /* Color del texto */
+	background-color: #f0f8ff; /* Color de fondo */
+	text-decoration: none;
+	font-size: 16px;
+	text-align: center;
+}
+
+.product .links a:hover {
+	background-color: #e6f0ff; /* Color de fondo al pasar el ratón */
+	border-color: #0056b3; /* Color del borde al pasar el ratón */
+	color: #0056b3; /* Color del texto al pasar el ratón */
+}

@@ -1,0 +1,117 @@
+/* styles.css */
+#servicio-contenedor {
+	font-family: Arial, sans-serif;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+/* CONTENEDOR DE TITULO */
+#servicio-contenedor .title-container {
+	margin-top: 60px;
+	margin-bottom: 50px;
+	font-size: 24px;
+	text-align: left;
+	width: 90%;
+	max-width: 400px;
+}
+
+#servicio-contenedor p {
+	color: #888;
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+
+/* CONTENEDOR DE PRODUCTOS */
+#product-container {
+	width: 90%;
+	max-width: 400px;
+	margin-bottom: 40px;
+}
+
+#servicio-contenedor .product-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #ececec;
+	border-radius: 10px;
+	padding: 20px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: black;
+}
+
+#servicio-contenedor .product-container img {
+	overflow: hidden;
+	width: 100px;
+	height: 80px;
+	border-radius: 10px;
+}
+
+#servicio-contenedor .product-info {
+	flex: 1;
+	margin-left: 20px;
+}
+
+#servicio-contenedor .product-info h2 {
+	margin: 0;
+	font-size: 18px;
+}
+
+#servicio-contenedor .product-info p {
+	margin: 5px 0 0;
+	font-size: 14px;
+	color: #555;
+}
+
+#servicio-contenedor .quantity-control {
+	display: flex;
+	align-items: center;
+}
+
+#servicio-contenedor .quantity-control button {
+	width: 30px;
+	height: 30px;
+	border: none;
+	background-color: #ddd;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	font-size: 18px;
+}
+
+#servicio-contenedor .quantity-control input {
+	width: 40px;
+	text-align: center;
+	border: none;
+	background: transparent;
+	font-size: 16px;
+	margin: 0 10px;
+}
+
+/* CONTENEDOR DE FACTURA */
+#servicio-contenedor .summary-container {
+	width: 90%;
+	max-width: 400px;
+	margin-bottom: 40px;
+	background-color: #ececec;
+	padding: 20px;
+	border-radius: 10px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: black;
+	box-sizing: border-box;
+}
+
+#servicio-contenedor .summary-row {
+	display: flex;
+	justify-content: space-between;
+}
+
+#servicio-contenedor .summary-row:last-child {
+	font-weight: bold;
+	font-size: 18px;
+	margin-top: 10px;
+}

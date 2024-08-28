@@ -1,0 +1,59 @@
+/* styles.css */
+
+body {
+	margin: 0;
+	font-family: Arial, sans-serif;
+	background-color: #fff;
+}
+
+.head {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+	background-color: #333;
+	color: #fff;
+}
+.head h1 {
+	margin: 0;
+	font-size: 2em;
+}
+
+.progress-container {
+	width: 100%;
+	max-width: 600px;
+	margin: 20px 0;
+}
+
+progress {
+	width: 100%;
+}
+
+.menu {
+	width: 100%;
+	max-width: 600px;
+}
+
+.menu ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	justify-content: space-around;
+}
+
+.menu li {
+	margin: 0;
+}
+
+.menu a {
+	color: #fff;
+	text-decoration: none;
+	padding: 10px;
+	display: block;
+}
+
+.menu a:hover {
+	background-color: #555;
+	border-radius: 5px;
+}
