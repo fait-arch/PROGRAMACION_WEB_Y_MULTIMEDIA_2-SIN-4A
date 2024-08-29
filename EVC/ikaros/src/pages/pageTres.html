@@ -7,9 +7,10 @@
 		<link rel="stylesheet" href="../styles/styles.css" />
 		<link rel="stylesheet" href="../styles/styleTres.css" />
 	</head>
+
 	<body>
 		<header class="head">
-			<h1>Ubicacion</h1>
+			<h1>Ubicación</h1>
 			<div class="progress-container">
 				<progress value="60" max="100"></progress>
 			</div>
@@ -23,31 +24,23 @@
 				</ul>
 			</nav>
 		</header>
+
 		<main id="contenedor">
-			<!-- Contenedor del Linktree -->
 			<div id="product-container">
 				<div class="product">
-					<!-- Contenedor de Título -->
-					<div class="title-container">
-						<div class="profile">
-							<h1 class="profile-name">Linktree</h1>
-						</div>
-					</div>
+					<!-- Aquí se mostrará el QR -->
+					<div id="qrcode" class="qr-style"></div>
+					<!-- Botón de aprobación de pedido -->
 					<div class="links">
-						<a href="https://www.example.com" class="link">Mi Sitio Web</a>
-						<a href="https://www.instagram.com/miusuario" class="link"
-							>Instagram</a
-						>
-						<a href="https://www.twitter.com/miusuario" class="link">Twitter</a>
-						<a href="https://www.linkedin.com/in/miusuario" class="link"
-							>LinkedIn</a
-						>
-						<a href="mailto:miemail@example.com" class="link"
-							>Correo Electrónico</a
-						>
+						<a id="confettiButton">Aceptar</a>
 					</div>
 				</div>
 			</div>
 		</main>
+
+		<!-- Carga de scripts externos para generar QR y animaciones -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+		<script src="../script/scriptTres.js"></script>
 	</body>
 </html>

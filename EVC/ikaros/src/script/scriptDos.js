@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
 		image: "../../public/perfil.jpg", // Ruta de la imagen del producto
 		name: "Ropa", // Nombre del producto
 		price: 4.0, // Precio base del producto
-		discount: 20, // Tasa de descuento (50%)
+		discount: 0.5, // Tasa de descuento (50%)
 	};
 
 	let quantity = 1; // Cantidad inicial del producto

@@ -1,5 +1,8 @@
 /* styles.css */
+
+/* CONTENEDOR PRINCIPAL */
 #contenedor {
+	padding-top: 10px; /* Espaciado superior */
 	font-family: Arial, sans-serif;
 	display: flex;
 	flex-direction: column;
@@ -7,52 +10,53 @@
 	margin: 0 auto;
 }
 
-/* CONTENEDOR DE TITULO */
+/* CONTENEDOR DE TÍTULO */
 .title-container {
-	margin-top: 60px;
-	margin-bottom: 50px;
-	font-size: 24px;
-	text-align: center;
+	margin-top: 60px; /* Espaciado superior */
+	margin-bottom: 50px; /* Espaciado inferior */
+	font-size: 24px; /* Tamaño de fuente */
+	text-align: center; /* Alineación centrada */
 	width: 90%;
-	max-width: 400px;
-}
-.sub-title {
-	text-align: left; /* Alinea el texto a la izquierda */
-	width: 100%; /* Hace que el título ocupe todo el ancho del contenedor */
-	max-width: 400px; /* Opcional: establece un ancho máximo */
+	max-width: 400px; /* Ancho máximo */
+	color: #333; /* Color de texto gris oscuro */
 }
 
 /* CONTENEDOR DE PRODUCTOS */
 #product-container {
 	width: 90%;
-	max-width: 400px;
-	margin-bottom: 40px;
+	max-width: 400px; /* Ancho máximo */
+	margin-bottom: 40px; /* Espaciado inferior */
 }
 
+/* ESTILOS DE PRODUCTO */
 .product {
 	display: flex;
 	flex-direction: column;
-	align-items: right;
-	background-color: #ececec;
-	border-radius: 10px;
-	padding: 20px;
-	border: 2px solid black;
-	margin-bottom: 20px;
+	align-items: center; /* Alineación centrada */
+	background-color: #f0f0f0; /* Color de fondo gris claro */
+	border-radius: 10px; /* Bordes redondeados */
+	padding: 20px; /* Espaciado interno */
+	border: 2px solid #666; /* Color del borde gris medio */
+	margin-bottom: 20px; /* Espaciado inferior */
 }
 
-.product h2 {
-	margin: 0;
-	font-size: 18px;
+/* ESTILOS DE ENLACES */
+.product .links a {
+	display: block;
+	margin-bottom: 10px; /* Espaciado inferior entre enlaces */
+	padding: 15px 80px; /* Espaciado interno */
+	border: 2px solid #999; /* Color del borde gris claro */
+	border-radius: 30px; /* Bordes redondeados */
+	color: #333; /* Color del texto gris oscuro */
+	background-color: #e0e0e0; /* Color de fondo gris más claro */
+	text-decoration: none; /* Sin subrayado */
+	font-size: 16px; /* Tamaño de fuente */
+	text-align: center; /* Alineación centrada */
 }
 
-.product p {
-	margin: 5px 0 0;
-	font-size: 14px;
-	color: #555;
-}
-
-.price {
-	font-size: 16px;
-	font-weight: bold;
-	margin-top: 10px;
+/* ESTILO AL PASAR EL RATÓN SOBRE LOS ENLACES */
+.product .links a:hover {
+	background-color: #d0d0d0; /* Color de fondo al pasar el ratón gris más oscuro */
+	border-color: #666; /* Color del borde al pasar el ratón gris medio */
+	color: #000; /* Color del texto al pasar el ratón negro */
 }

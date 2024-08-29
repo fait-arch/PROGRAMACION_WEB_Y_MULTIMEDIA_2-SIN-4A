@@ -1,4 +1,6 @@
 /* styles.css */
+
+/* Estilo general para el contenedor principal */
 #contenedor {
 	font-family: Arial, sans-serif;
 	display: flex;
@@ -7,7 +9,7 @@
 	margin: 0 auto;
 }
 
-/* CONTENEDOR DE TITULO */
+/* Estilo para el contenedor del título principal */
 .title-container {
 	margin-top: 60px;
 	margin-bottom: 50px;
@@ -16,23 +18,26 @@
 	width: 90%;
 	max-width: 400px;
 }
+
+/* Estilo para subtítulos */
 .sub-title {
 	text-align: left; /* Alinea el texto a la izquierda */
 	width: 100%; /* Hace que el título ocupe todo el ancho del contenedor */
-	max-width: 400px; /* Opcional: establece un ancho máximo */
+	max-width: 400px; /* Establece un ancho máximo */
 }
 
-/* CONTENEDOR DE PRODUCTOS */
+/* Estilo para contenedores de productos */
 #product-container {
 	width: 90%;
 	max-width: 400px;
 	margin-bottom: 40px;
 }
 
+/* Estilo para cada producto */
 .product {
 	display: flex;
 	flex-direction: column;
-	align-items: right;
+	align-items: flex-start; /* Cambiado a flex-start para alinear a la izquierda */
 	background-color: #ececec;
 	border-radius: 10px;
 	padding: 20px;
@@ -51,6 +56,7 @@
 	color: #555;
 }
 
+/* Estilo para el precio del producto */
 .price {
 	font-size: 16px;
 	font-weight: bold;

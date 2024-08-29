@@ -1,8 +1,7 @@
 /* styles.css */
 
-/* CONTENEDOR PRINCIPAL */
+/* Estilo general para el contenedor principal */
 #contenedor {
-	padding-top: 10px;
 	font-family: Arial, sans-serif;
 	display: flex;
 	flex-direction: column;
@@ -10,27 +9,19 @@
 	margin: 0 auto;
 }
 
-/* CONTENEDOR DE TITULO */
-.title-container {
-	margin-top: 60px;
-	margin-bottom: 50px;
-	font-size: 24px;
-	text-align: center;
-	width: 90%;
-	max-width: 400px;
-}
-
-/* CONTENEDOR DE PRODUCTOS */
+/* Estilo para el contenedor de productos */
 #product-container {
 	width: 90%;
 	max-width: 400px;
 	margin-bottom: 40px;
 }
 
+/* Estilo para cada producto */
 .product {
+	margin-top: 20px;
 	display: flex;
 	flex-direction: column;
-	align-items: center;
+	align-items: center; /* Centra el contenido del contenedor de productos */
 	background-color: #ececec;
 	border-radius: 10px;
 	padding: 20px;
@@ -38,21 +29,28 @@
 	margin-bottom: 20px;
 }
 
-.product .links a {
+/* Estilo para el QR */
+.qr-style {
+	margin-bottom: 10px; /* Margen inferior de 10px */
+}
+
+/* Estilos para los enlaces de acción */
+.links a {
 	display: block;
 	margin-bottom: 10px;
 	padding: 15px 80px;
-	border: 2px solid #007bff; /* Color del borde */
-	border-radius: 30px; /* Bordes redondeados */
-	color: #007bff; /* Color del texto */
-	background-color: #f0f8ff; /* Color de fondo */
+	border: 2px solid #999;
+	border-radius: 30px;
+	color: #333;
+	background-color: #e0e0e0;
 	text-decoration: none;
 	font-size: 16px;
 	text-align: center;
 }
 
-.product .links a:hover {
-	background-color: #e6f0ff; /* Color de fondo al pasar el ratón */
-	border-color: #0056b3; /* Color del borde al pasar el ratón */
-	color: #0056b3; /* Color del texto al pasar el ratón */
+/* Estilo para el efecto hover del enlace */
+.links a:hover {
+	background-color: #d0d0d0;
+	border-color: #666;
+	color: #000;
 }
